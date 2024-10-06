@@ -16,7 +16,7 @@ function App() {
           <li><Link to="/citylist">CityList</Link></li>
         </ul>
 
-        {/* configure routers */}
+        {/* configure routers test*/}
         <Routes>
           <Route path="/home" element={<Home />} />
           <Route path="/citylist" element={<CityList />} />
