@@ -5,13 +5,10 @@ import { BrowserRouter as Router, Route, Link, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import CityList from "./pages/CityList";
 
-import { Button } from "antd-mobile";
-
 function App() {
   return (
     <Router>
       <div className="App">
-        {/* Project Root Component <Button>Login</Button> */}
 
         {/* configure navigation menu */}
         <ul>
@@ -21,8 +18,8 @@ function App() {
 
         {/* configure routers */}
         <Routes>
-          <Route path="/home" element={<Home />}></Route>
-          <Route path="/citylist" element={<CityList />}></Route>
+          <Route path="/home" element={<Home />} />
+          <Route path="/citylist" element={<CityList />} />
         </Routes>
       </div>
     </Router>
