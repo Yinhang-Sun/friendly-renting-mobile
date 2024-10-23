@@ -10,13 +10,13 @@ function App() {
     <Router>
       <div className="App">
 
-        {/* configure navigation menu */}
+        {/* Configure navigation menu */}
         <ul>
           <li><Link to="/home">Home</Link></li>
           <li><Link to="/citylist">CityList</Link></li>
         </ul>
 
-        {/* configure routers */}
+        {/* Configure routers */}
         <Routes>
           <Route path="/home" element={<Home />} />
           <Route path="/citylist" element={<CityList />} />
