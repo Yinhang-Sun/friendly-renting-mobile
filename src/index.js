@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 
 // import 'antd-mobile/dist/antd-mobile.css';
-// import 'antd-mobile/es/global/global.css';
+// import 'antd-mobile/es/global/global.css'; 
 
 // ReactDOM.render(<App />, document.getElementById('root'))
 
